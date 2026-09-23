@@ -6,3 +6,7 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# One-off IAM setup files (not part of the app/infra config)
+trust-policy.json
+deploy-permissions-policy.json
